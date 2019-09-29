@@ -1,0 +1,36 @@
+{% extends '_base.html' %}
+
+{% block container %}
+
+<main>
+    <section>
+        <article>
+            <h5>Total Data</h5>
+            <h3 id="total-data"></h3>
+        </article>
+    </section>
+    <hr>
+    <section>
+        <article>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody id="row-data">
+
+                </tbody>
+            </table>
+        </article>
+    </section>
+</main>
+
+{% endblock %}
+
+{% block extra_script %}
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+<script src="/js/home.js"></script>
+{% endblock %}
