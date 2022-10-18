@@ -4,7 +4,7 @@
 ## Requirement
 - Python 3.6.+
 - PIP
-- Virtual Environment (venv)
+- Virtual Environment (virtualenv)
 
 ## Usage 
 Execute the following commands :
@@ -16,3 +16,9 @@ Execute the following commands :
 Start the application with :
     
     python app.py
+
+## Note
+### Using different python version
+If you happen to use newest version of python, please read article below before initiating the project
+
+https://www.freecodecamp.org/news/installing-multiple-python-versions-on-windows-using-virtualenv/

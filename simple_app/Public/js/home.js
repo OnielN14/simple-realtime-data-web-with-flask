@@ -2,7 +2,7 @@ let elementTotalData = $('#total-data')
 let elementRowData = $('#row-data')
 
 $(document).ready(function(){
-    let socket = io.connect('http://localhost:5000/todo-data')
+    let socket = io.connect('/todo-data')
 
     socket.on('connect', function(){
         // socket.emit('join',{})
